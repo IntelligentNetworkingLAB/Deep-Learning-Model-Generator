@@ -4,7 +4,7 @@ Deep Learning Model Generator
 엣지 컴퓨팅용 진화형 딥러닝 모델 생성 플랫폼 개발
 ![ex_screenshot](./Image/noname01.bmp)
 
-Federated Learning 구조
+Federated Learning Structure 
 ![ex_screenshot](./Image/noname02.bmp)
 
 
