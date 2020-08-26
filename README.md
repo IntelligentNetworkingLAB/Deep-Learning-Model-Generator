@@ -2,9 +2,13 @@
 Deep Learning Model Generator
 
 엣지 컴퓨팅용 진화형 딥러닝 모델 생성 플랫폼 개발
+
+◎ 지속적인 진화가 가능한 Domain Specific 학습 모델 생성 플랫폼
+
 ![ex_screenshot](./Image/noname01.bmp)
 
 Federated Learning Structure 
+
 ![ex_screenshot](./Image/noname02.bmp)
 
 
@@ -13,3 +17,4 @@ Federated Learning Structure
 해결하려는 문제 해결을 위한 어떤 데이터가 입력되더라도 입력 데이터에 특화된 모델 즉, 도메인 특화 모델을 생성하여 문제 해결이 가능함
 
 ![ex_screenshot](./Image/noname03.bmp)
+
