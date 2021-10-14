@@ -7,7 +7,7 @@ import copy
 import time
 import pandas as pd
 
-def WOA(SearchAgents_no, Max_iter, fobj, dim, cases):
+def WOA(SearchAgents_no, Max_iter, fobj, dim, cases, cur):
     '''
     This code is for Discrete Whale Optimization Algorithm(DWOA)
     "SearchAgents_no" is number of searching agents
@@ -25,7 +25,7 @@ def WOA(SearchAgents_no, Max_iter, fobj, dim, cases):
     Flag = 0
 
     Positions = np.zeros((SearchAgents_no, dim))
-    Positions[0] = copy.deepcopy(s_solution)
+    Positions[0] = copy.deepcopy(cur)
     for i in range(1, len(Positions)):
         for j in range(len(Positions[i])):
             Positions[i][j] = int(rand.random() * (cases + 1))
