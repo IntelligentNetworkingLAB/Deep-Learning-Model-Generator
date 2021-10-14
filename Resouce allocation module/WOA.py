@@ -7,7 +7,7 @@ import copy
 import time
 import pandas as pd
 
-def WOA(SearchAgents_no, Max_iter, fobj, dim, lb, ub):
+def WOA(SearchAgents_no, Max_iter, fobj, dim, lb, ub, cur):
     '''
     This code is for Whale Optimization Algorithm(WOA) to solve minimization problem.
     "SearchAgents_no" is number of searching agents
@@ -27,7 +27,8 @@ def WOA(SearchAgents_no, Max_iter, fobj, dim, lb, ub):
     Flag = 0
     # Initialize the positions of search agents. Size is SearchAgents_no x dim
     Positions = np.zeros((SearchAgents_no, dim))
-    for i in range(0, len(Positions)):
+    Positions[0] = copy.deepcopy(cur)
+    for i in range(1, len(Positions)):
         for j in range(len(Positions[i])):
             Positions[i][j] = rand.random() * ub
     Convergence_curve = np.zeros((1, Max_iter))
