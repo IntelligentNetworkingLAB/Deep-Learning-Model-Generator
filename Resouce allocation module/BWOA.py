@@ -1,3 +1,12 @@
+import numpy as np
+import random as rand
+from random import *
+import math
+from matplotlib import pyplot as plt
+import copy
+import time
+import pandas as pd
+
 def WOA(SearchAgents_no, Max_iter, fobj, dim, cases):
     '''
     This code is for Discrete Whale Optimization Algorithm(DWOA)
