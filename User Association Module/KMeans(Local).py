@@ -47,11 +47,11 @@ for _ in range(max_iter):
     # if not change centroid
     if centroids[0]==newCentroids[0] and centroids[1]==newCentroids[1] and centroids[2]==newCentroids[2]:
         break
-    
+
     # else continue
     for i in range(12):
         for j in range(3):
             centroids[3*i + j] = newCentroids[j]
 
 for row, column in indexes:
-    print(row, "user:", column%3, "UAV - ", users[row])
+    print(row, "user - ", column%3, "UAV - ", users[row])
