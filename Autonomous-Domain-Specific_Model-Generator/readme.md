@@ -8,7 +8,7 @@ The main challenging issue to utilize deep learning for various tasks such as co
 ## The progress of Autonomous Domain-specific Model Generator 
 <div style="text-align: justify">
 We implemented the “Autonomous Domain-specific Model Generator” (ADSMG) by using Tensorflow with Keras. Currently, ADSMG is underdevelopement and we implemented the following basic components for the ADSMG as shown in Figure 1. The implemented components are as follows: 1) Data Store, 2) Preprocessing Module, 3) Model Architecture Dictionary, Model Creation Module, Temporary Model Store, Model Training Module, and Model store. Currently, the ADSMG can assess via Jupyter Notebook. In the current version, the Data Store is to store the open dataset from the various sources such as “MovieLens” dataset. The preprocessing module cleans the raw data to get the trainable data for the best-suited model searching and selection process. The Model Architecture Dictionary keeps the general deep learning framework (i.e., Convolutional Neural Network) and rules to construct deep learning models. Then, the Model Creation Module generates the potential deep learning model by using various types of model searching and construction algorithms (i.e., random search). Then, the Model Creation Module store all of the constructed models and the performance of the models in the Tmp Model Store. Next, the Model Training Module chooses the best-suited model and train that model with the large dataset. Finally, the best-suited model is stored at the Model Store for future use.
-</div><br>
+</div>
 
 ![system_model](https://github.com/kyithar/Autonomous-Domain-specific-Model-Generator-/blob/master/md_figs/system_model.jpg)
 
