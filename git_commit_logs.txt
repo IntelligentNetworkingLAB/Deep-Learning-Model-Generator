@@ -6,9 +6,9 @@ Apr : 0
 May : 0
 Jun : 0
 Jul : 0
-Aug : 
+Aug : 2
 Sep : 24
 Oct : 0
 Nov : 0
 Dec : 0
-Total : 52
+Total : 28
