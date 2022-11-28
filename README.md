@@ -19,8 +19,8 @@ Federated Learning Structure
 ![ex_screenshot](./Image/noname03.bmp)
 
 ## Version
-python 3.8
-Pytorch 1.8.0
+- python 3.8
+- Pytorch 1.8.0
 
 ## License
 Copyright (c) 2019 Networking Intelligence
